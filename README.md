@@ -36,7 +36,7 @@ Every transaction is locked, logged, and checked before execution. If something 
 
 > "Sentinel doesn't just execute. It guards. Every transaction is locked, logged, and checked before execution. If something fails, it stops and flags it for you. No spam, no duplicates, no silent failures. You're in control."
 
-This is not a template. This is production infrastructure.
+This is a working guard engine, not a template. It has 8 passing tests covering duplicate prevention and error handling.
 
 ## Open It
 
