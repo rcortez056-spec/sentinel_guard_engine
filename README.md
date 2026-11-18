@@ -19,3 +19,36 @@ Every transaction is locked, logged, and checked before execution. If something 
 - **Guard Clause Engine:** Shows what blocks or allows requests.
 - **State Database:** Shows transaction locks and queries.
 - **Rule Evaluator:** Shows the conditional logic that gates execution.
+
+## Plus
+
+- **Transaction Log:** Full audit trail of all 50+ transactions.
+- **Manual Review Queue:** Errors that need human intervention (no silent failures).
+- **Metrics:** Total, Blocked, Processed, Flagged.
+
+## Three Test Buttons
+
+- ⚡ **Incoming Request:** Normal flow (passes all guards).
+- 🔄 **Test Duplicate Guard:** Shows how it prevents duplicate sending.
+- ❌ **Test Error Recovery:** Shows error detection and manual review flagging.
+
+## Why This Closes Enterprise Deals
+
+> "Sentinel doesn't just execute. It guards. Every transaction is locked, logged, and checked before execution. If something fails, it stops and flags it for you. No spam, no duplicates, no silent failures. You're in control."
+
+This is not a template. This is production infrastructure.
+
+## Open It
+
+Click [demo link](https://sentinel-1-ramon.netlify.app/), which opens in a green terminal style. Then click ⚡ **Incoming Request** to watch a full transaction flow.
+
+## Watch How
+
+- Guard checks state database
+- Locks transaction
+- Executes action
+- Unlocks & logs
+
+Never duplicates. Never spams. Never silent-fails.
+
+This is Sentinel. 🎯
