@@ -49,6 +49,6 @@ Click [demo link](https://sentinel-1-ramon.netlify.app/), which opens in a green
 - Executes action
 - Unlocks & logs
 
-Never duplicates. Never spams. Never silent-fails.
+Built to prevent duplicate sends, flag errors for review, and avoid silent failures. Covered by 8 passing tests.
 
 This is Sentinel. 🎯
